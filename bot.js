@@ -15,15 +15,15 @@ client.on('message', message => {
 
 if (message.content.startsWith('We')) {
 client.user.setActivity(argresult, {type:'WATCHING'});
-    message.channel.send(`${argresult} \` `)
+    message.channel.send(`${argresult} \` ` :white_check_mark:)
 } else 
 if (message.content.startsWith('Le')) {
 client.user.setActivity(argresult , {type:'LISTENING'});
-    message.channel.send(` ${argresult} \` `)
+    message.channel.send(` ${argresult} \` ` :white_check_mark: )
 } else 
 if (message.content.startsWith('Se')) {
   client.user.setGame(argresult, "https://www.twitch.tv/meercy");
-   message.channel.send(`${argresult} \` `)
+   message.channel.send(`${argresult} \` ` :white_check_mark: )
 }
 });
 
